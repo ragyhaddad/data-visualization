@@ -1,0 +1,37 @@
+.layer text {
+    text-anchor: end;
+    font-size: 14px;
+    fill: #111;
+}
+
+.title {
+    text-anchor: middle;
+    font-size: 16px;
+    fill: #777;
+}
+
+.axis-label {
+    text-anchor: middle;
+    font-size: 12px;
+    font-weight: semibold;
+    fill: #555;
+}
+
+.axis,
+.frame {
+  shape-rendering: crispEdges;
+}
+
+.axis line,
+.axis path {
+  stroke: #aaa;
+}
+
+body {
+    font-family: "Open Sans";
+    margin: 0;
+}
+
+#main {
+    margin: 20px;
+}

@@ -1,0 +1,24 @@
+.cell text {
+    font-size: 14px;
+    fill: #111;
+}
+
+.title {
+    text-anchor: middle;
+    font-size: 16px;
+    fill: #777;
+}
+
+.date-label {
+    font-size: 14px;
+    text-anchor: middle;
+}
+
+body {
+    font-family: "Open Sans";
+    margin: 0;
+}
+
+#main {
+    margin: 20px;
+}

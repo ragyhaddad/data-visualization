@@ -1,0 +1,16 @@
+
+
+text.label {
+    text-anchor: middle;
+    font-size: 14px;
+    fill: #555;
+    font-family: sans-serif;
+}
+
+body {
+    font-family: "Open Sans";
+}
+
+#main {
+    margin: 10px 20px;
+}

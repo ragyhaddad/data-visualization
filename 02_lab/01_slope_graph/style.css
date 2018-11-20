@@ -1,0 +1,46 @@
+line {
+    stroke: #777;
+    stroke-width: 2px;
+    opacity: 0.8;
+}
+
+circle {
+    fill: #777;
+    stroke: none;
+}
+
+
+
+
+body {
+    font-family: "Open Sans";
+}
+
+#main {
+    margin: 10px 20px;
+}
+
+.axis .domain,
+.axis .tick line {
+    fill: none;
+    stroke: #000;
+    stroke-width: 1px;
+}
+
+.axis .tick text{
+    font-size: 10px;
+    font-family: sans-serif;
+    text-anchor: end;
+    fill: #000;
+}
+
+.label line {
+    stroke-dasharray: 2 4;
+}
+
+.label text {
+    text-anchor: middle;
+    font-size: 16px;
+    fill: #555;
+    font-family: sans-serif;
+}
